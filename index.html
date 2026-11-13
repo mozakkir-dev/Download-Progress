@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download Progress</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="download-card">
+
+            <div class="file-icon">📁</div>
+
+            <h2>Downloading File</h2>
+            <p class="filename">Project_Files.zip</p>
+
+            <div class="progress-info">
+                <span id="status">Ready to download</span>
+                <span id="percentage">0%</span>
+            </div>
+
+            <div class="progress-bar">
+                <div class="progress" id="progress"></div>
+            </div>
+
+            <!-- <div class="download-info">
+                <span id="downloaded">0 MB / 100 MB</span>
+                <span id="speed">0 MB/s</span>
+            </div> -->
+
+            <button id="downloadBtn">Start Download</button>
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
