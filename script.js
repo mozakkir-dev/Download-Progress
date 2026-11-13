@@ -11,7 +11,7 @@ let inv = setInterval(function(){
         
     }
     else{
-        document.querySelector("h2").textContent = "Downloaded File";
+        document.querySelector("h2").textContent = "File Downloaded ";
         clearInterval(inv);
     }
 },3000/100)
